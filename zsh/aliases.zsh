@@ -69,6 +69,7 @@ alias :q='exit'
 alias ze='vim ~/.zshrc'
 
 # Git Aliases
+alias g='git status'
 alias gs='git status'
 alias gstsh='git stash'
 alias gst='git stash'
