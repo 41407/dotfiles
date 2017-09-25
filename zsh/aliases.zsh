@@ -96,6 +96,7 @@ alias grv='git remote -v'
 alias grr='git remote rm'
 alias grad='git remote add'
 alias gr='git rebase'
+alias grom='git rebase origin/master'
 alias gra='git rebase --abort'
 alias ggrc='git rebase --continue'
 alias gbi='git rebase --interactive'
@@ -216,3 +217,6 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 
 # Homebrew
 alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew doctor'
+
+# Sublime
+alias subl='sublime'
