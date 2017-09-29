@@ -8,6 +8,8 @@
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
 	<integer>1</integer>
+	<key>AppleWindowTabbingMode</key>
+	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>Solarized Dark</key>
@@ -712,11 +714,11 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>1930 589 620 392 1280 0 1920 1178 </string>
+	<string>350 289 620 392 0 0 1280 778 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1549 76 618 519 1280 0 1920 1178 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1856 364 796 473 1280 0 1920 1178 </string>
+	<string>1899 489 918 452 1280 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>1280 0 1920 1178 1280 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -892,9 +894,9 @@
 				<key>Blue Component</key>
 				<real>0.0</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.1491314172744751</real>
 				<key>Red Component</key>
 				<real>1</real>
 			</dict>
@@ -937,15 +939,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.25</real>
+				<real>0.127655029296875</real>
 				<key>Blue Component</key>
-				<real>1</real>
+				<real>0.5638427734375</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.91000000000000003</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.65000000000000002</real>
+				<real>0.48618705943226814</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -1280,13 +1282,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.67800000000000005</real>
+				<real>0.73423302173614502</real>
 				<key>Color Space</key>
-				<string>Calibrated</string>
+				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.27000000000000002</real>
+				<real>0.35916060209274292</real>
 				<key>Red Component</key>
-				<real>0.023</real>
+				<real>0.0</real>
 			</dict>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
@@ -1349,9 +1351,16 @@
 			<key>Thin Strokes</key>
 			<integer>0</integer>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.46604338515228427</real>
 			<key>Triggers</key>
-			<array/>
+			<array>
+				<dict>
+					<key>action</key>
+					<string>HighlightTrigger</string>
+					<key>regex</key>
+					<string>deprecated</string>
+				</dict>
+			</array>
 			<key>Unicode Version</key>
 			<integer>8</integer>
 			<key>Unlimited Scrollback</key>
@@ -1359,6 +1368,8 @@
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
+			<true/>
+			<key>Use Cursor Guide</key>
 			<true/>
 			<key>Use Italic Font</key>
 			<true/>
@@ -1379,7 +1390,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>CB068A92-DDDB-4E9D-A71F-E3049D319C0D</string>
 	<key>NoSyncLastTipTime</key>
-	<real>527758916.535308</real>
+	<real>528274822.53649199</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1418,6 +1429,10 @@
 		<string>0024</string>
 		<string>0025</string>
 		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
 	</array>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
@@ -1438,12 +1453,12 @@
 		<key>Button,3,1,,</key>
 		<dict>
 			<key>Action</key>
-			<string>kPasteFromSelectionPointerAction</string>
+			<string>kSmartSelectionPointerAction</string>
 		</dict>
-		<key>Button,4,1,,</key>
+		<key>Button,3,2,,</key>
 		<dict>
 			<key>Action</key>
-			<string>kSmartSelectionPointerAction</string>
+			<string>kPasteFromSelectionPointerAction</string>
 		</dict>
 		<key>Gesture,ThreeFingerSwipeDown,,</key>
 		<dict>
@@ -1479,7 +1494,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-22T07:22:33Z</date>
+	<date>2017-09-29T06:29:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1505,6 +1520,10 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.1.1</string>
+	<string>3.1.2</string>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>6</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>
