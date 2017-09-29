@@ -718,7 +718,7 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>1549 76 618 519 1280 0 1920 1178 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>1899 489 918 452 1280 0 1920 1178 </string>
+	<string>1998 515 918 452 1280 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>1280 0 1920 1178 1280 0 1920 1178 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -939,15 +939,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.127655029296875</real>
+				<real>0.2412261962890625</real>
 				<key>Blue Component</key>
-				<real>0.5638427734375</real>
+				<real>0.85490196078431369</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.0</real>
+				<real>0.66666666666666663</real>
 				<key>Red Component</key>
-				<real>0.48618705943226814</real>
+				<real>0.0</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -1351,7 +1351,7 @@
 			<key>Thin Strokes</key>
 			<integer>0</integer>
 			<key>Transparency</key>
-			<real>0.46604338515228427</real>
+			<real>0.0</real>
 			<key>Triggers</key>
 			<array>
 				<dict>
@@ -1506,7 +1506,7 @@
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SplitPaneDimmingAmount</key>
-	<real>0.45123697916666672</real>
+	<real>0.37838291266025637</real>
 	<key>StretchTabsToFillBar</key>
 	<false/>
 	<key>TabStyle</key>
