@@ -220,3 +220,6 @@ alias brewu='brew update  && brew upgrade && brew cleanup && brew prune && brew 
 
 # Sublime
 alias subl='sublime'
+
+# Unity
+alias unitylog='tail -f ~/Library/Logs/Unity/Editor.log | grep '$1''
