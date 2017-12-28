@@ -48,7 +48,7 @@ TRAPHUP() {
   source $yadr/zsh/aliases.zsh
 }
 
-alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
+alias ae='subl $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
 alias gar="killall -HUP -u \"$USER\" zsh"  #global alias reload
 
@@ -202,7 +202,7 @@ alias todo='open nvalt://find/todo'
 # spb = sprintly branch - create a branch automatically based on the bug you're working on
 #alias spb="git checkout -b \`sp | tail -2 | grep '#' | sed 's/^ //' | sed 's/[^A-Za-z0-9 ]//g' | sed 's/ /-/g' | cut -d"-" -f1,2,3,4,5\`"
 
-#alias hpr='hub pull-request'
+alias gpr='hub pull-request'
 #alias grb='git recent-branches'
 
 # Finder
