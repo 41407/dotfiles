@@ -110,7 +110,7 @@ alias gfa='git fetch --all'
 alias gfap='git fetch --all --prune'
 alias gfch='git fetch'
 alias gb='git b'
-alias gd='git diff' --cached'
+alias gd='git diff --cached'
 alias gdw='git diff -w'
 # Staged and cached are the same thing
 alias gdc='git diff --cached'
