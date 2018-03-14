@@ -110,13 +110,11 @@ alias gfa='git fetch --all'
 alias gfap='git fetch --all --prune'
 alias gfch='git fetch'
 alias gb='git b'
-alias gd='git diff --cached'
+alias gd='git diff'
 alias gdw='git diff -w'
 # Staged and cached are the same thing
 alias gdc='git diff --cached'
-alias gds='git diff --staged'
 alias gdcw='git diff --cached -w'
-alias gdsw='git diff --staged -w'
 #alias gpub='grb publish'
 #alias gtr='grb track'
 alias gpl='git pull'
@@ -226,6 +224,6 @@ alias subl='sublime'
 
 # Unity
 alias unitylog='tail -f ~/Library/Logs/Unity/Editor.log | grep -e '$1''
+alias unitylogtags='tail -f ~/Library/Logs/Unity/Editor.log | grep -e "^\[[A-Za-z]"'
 alias assetsync='sh ~/scripts/assetsync.sh'
-alias unitybike='/Applications/Unity5_6_3_p4/Unity.app/Contents/MacOS/Unity -force-opengl'
-
+alias unitybike='/Applications/Unity5_6_5_f1/Unity.app/Contents/MacOS/Unity -force-opengl'
