@@ -225,5 +225,6 @@ alias subl='sublime'
 # Unity
 alias unitylog='tail -f ~/Library/Logs/Unity/Editor.log | grep -e '$1''
 alias unitylogtags='tail -f ~/Library/Logs/Unity/Editor.log | grep -e "^\[[A-Za-z]"'
+alias unitylogless='cat ~/Library/Logs/Unity/Editor.log | grep -e "^\[[A-Za-z]" |less'
 alias assetsync='sh ~/scripts/assetsync.sh'
 alias unitybike='/Applications/Unity5_6_5_f1/Unity.app/Contents/MacOS/Unity -force-opengl'
