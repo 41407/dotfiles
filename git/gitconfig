@@ -130,3 +130,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[user]
+	signingkey = C29734AE18AEA8C6
