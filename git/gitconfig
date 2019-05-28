@@ -109,8 +109,9 @@
   # the usual default is to push all branches
   default = upstream
 [core]
-  autocrlf = false
-	editor = "sublime -n -w"
+  autocrlf = true
+  eol = lf
+  editor = "sublime -n -w"
   excludesfile = ~/.yadr/git/gitignore
 [advice]
   statusHints = false
