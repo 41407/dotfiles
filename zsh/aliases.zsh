@@ -72,7 +72,7 @@ alias ze='vim ~/.zshrc'
 # Git Aliases
 alias g='git status'
 alias gs='git show --stat'
-alias glr='git log --raw'
+alias glr='git l --raw'
 alias gstsh='git stash'
 alias gst='git stash'
 alias gsp='git stash pop'
